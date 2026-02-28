@@ -8,7 +8,7 @@ if (question1 == "yes"):
   lufthansa += 1
 else:
   eurowings += 1
-question2 = input("Do you have a high busget for your ticket? ")
+question2 = input("Do you have a high budget for your ticket? ")
 if (question2 == "yes"):
   lufthansa += 1
 else:
