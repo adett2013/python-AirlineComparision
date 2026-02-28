@@ -72,7 +72,3 @@ elif (lufthansa == eurowings):
   elif (lufthansa > eurowings):
     print("-YOUR RESULTS-")
     print("Based on your answers, Lufthansa is a better choice for you.")
-
-
-
-
