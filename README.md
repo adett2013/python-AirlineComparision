@@ -1,12 +1,5 @@
 <div align="center">
 
-<!-- Animated Header -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1200&color=0078D4&center=true&vCenter=true&width=900&lines=✈️+Welcome+to+Airline+Chooser!;🛫+Lufthansa+VS+Eurowings;Find+Your+Perfect+Airline+in+Seconds!;🌍+Where+Will+You+Fly+Today%3F" alt="Typing SVG" />
-</a>
-
-<br/>
-
 <!-- Plane animation banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a73e8,100:00b4d8&height=180&section=header&text=Airline%20Chooser%20🛫&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Lufthansa%20VS%20Eurowings%20—%20Which%20airline%20suits%20you%3F&descAlignY=58&descSize=18" width="100%"/>
 
@@ -36,7 +29,7 @@ Answer a series of simple **yes/no** questions and the system will recommend the
 ## 🚀 How It Works
 
 ```
-python airline_chooser.py
+python main.py
 ```
 
 The program asks you **10 questions** about your travel preferences. Based on your answers, it recommends either **Lufthansa** or **Eurowings**.
@@ -48,15 +41,15 @@ The program asks you **10 questions** about your travel preferences. Based on yo
 | # | Question | Favours |
 |---|----------|---------|
 | 1 | Is an included snack and drink on board important to you? | ✈️ Lufthansa |
-| 2 | Do you have a high budget for your ticket? | ✈️ Lufthansa |
+| 2 | Do you have a high busget for your ticket? | ✈️ Lufthansa |
 | 3 | Do you need checked bags? | ✈️ Lufthansa |
 | 4 | Is flexibility important to you for rebooking? | ✈️ Lufthansa |
 | 5 | Are you travelling with kids (family)? | 🛫 Eurowings |
-| 6 | Are you travelling to holiday-places like Mallorca? | 🛫 Eurowings |
+| 6 | Are you travelling to holiday-places like mallorca? | 🛫 Eurowings |
 | 7 | Do you want to fly from Hamburg Airport directly? | 🛫 Eurowings |
-| 8 | Do you need priority-services like included airport check-in? | ✈️ Lufthansa |
+| 8 | Do you need priority-services like included airport-checkin? | ✈️ Lufthansa |
 | 9 | Are you flying long-haul? | ✈️ Lufthansa |
-| 10 | Is seat comfort and legroom important to you? | ✈️ Lufthansa |
+| 10 | Is seat-comfort and legroom important to you? | ✈️ Lufthansa |
 | 🔁 | *(Tiebreaker)* Is this trip for business? | ✈️ Lufthansa |
 
 > You can answer each question with **yes** (or **y**) and **no** (or **n**).
@@ -113,7 +106,7 @@ git clone https://github.com/adett2013/python-AirlineComparision.git
 cd python-AirlineComparision
 
 # Run the script
-python airline_chooser.py
+python main.py
 ```
 
 ---
